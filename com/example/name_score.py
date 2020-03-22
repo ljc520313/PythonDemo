@@ -3,7 +3,7 @@ score = [['小明',60],['小红',90],['小兰',100]]
 for each in score:
     if name in each[0]:
         print(name +"的得分为"+ str(each[1]))
-        break
+        # break
 
 if name not in each[0]:
     print('名字不存在')
