@@ -6,9 +6,9 @@ list1 = ['&','*','#','~']
 strqd=""
 
 for i in password:
-    if i>='0' and i<='9':
+    if i.isdigit():
         strqd+='1'
-    elif i>='a' and i<='z' or i>='A' and i<='Z':
+    elif i.isalpha():
         strqd+='2'
     elif i in list1:
         strqd+='3'
